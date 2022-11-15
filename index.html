@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <style>
+        .d-flex{
+            display: flex;
+        }
+        .justify-content-end{
+            justify-content: flex-end;
+        }
+        .margin-x-40{
+            margin-right: 40px;
+        }
+        .padding-x-8{
+            padding-left: 8px;
+            padding-right: 8px;
+        }
+        .margin-x-65{
+            margin-left: 65px;
+            margin-right: 65px;
+        }
+        li{
+            list-style: none;
+            color: #016364;
+            font-size: 28px;
+        }
+       /* .text-28{
+            font-size: 28px;
+        }
+        .text-primary{
+            color: #016364;
+        } */
+        .align-items-end{
+            align-items: flex-end;
+        }
+        ul{
+            margin: 0;
+        }
+        h1{
+            margin: 0;
+            cursor: pointer
+        }
+        .underline{
+            /* border-bottom: 4px solid #016364; */
+            border-bottom: 9px solid transparent;
+            transition: border 0.15s;
+        }
+        .underline:hover{
+            border-bottom: 9px solid #00b2b3;
+        }
+        .cursor-pointer{
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="d-flex justify-content-end margin-x-40">
+             <a class="padding-x-8" href="">網站導覽</a>
+             <a class="padding-x-8" href="">菁因招募</a>
+             <a class="padding-x-8" href="">公告</a>
+             <a class="padding-x-8" href="">English</a>
+        </div>
+        <div class="margin-x-65 d-flex align-items-end">
+            <h1>
+                 <img src="./itrilogo.svg" alt="">
+            </h1> 
+            <div>
+                <ul class="d-flex">
+                    <li class="margin-x-40 underline cursor-pointer">尖端科技</li>
+                    <li class="margin-x-40 underline cursor-pointer">產業服務</li>
+                    <li class="margin-x-40 underline cursor-pointer">國際合作</li>
+                    <li class="margin-x-40 underline cursor-pointer">新聞中心</li>
+                    <li class="margin-x-40 underline cursor-pointer">關於我們</li>
+                    <li class="margin-x-40 underline cursor-pointer">線上展示館</li>                    
+                </ul>                
+            </div>
+            <div>
+                <span class="material-symbols-outlined">
+                    search
+                </span>
+            </div>        
+        </div>
+    </header>
+</body>
+</html>
